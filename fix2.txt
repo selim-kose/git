@@ -1,0 +1,46 @@
+309  git add README.md
+  310  git commit -m "added dog, changed moose to mouse"
+  311  git checkout main
+  312  vi README.md
+  313  git add .
+  314  git commit -m "made changes"
+  315  git status
+  316  git merge feature1
+  317  vi README.md
+  318  git tag extinct
+  319  git tag extinct1
+  320  git status
+  321  git add .
+  322  git commit -m "merged main to feature1"
+  323  git reset HEAD~1
+  324  vi README.md
+  325  git status
+  326  git log --oneline
+  327  git commit -a-m "reset"
+  328  git commit -am "reset"
+  329  vi README.md
+  330  git checkout feature1
+  331  vi README.md
+  332  git show
+  333  git checkout main
+  334  git show
+  335  git branch feature2
+  336  vi README.md
+  337  git add .
+  338  git commit -m "uppercase"
+  339  git checkout feature2
+  340  touch fix1.txt
+  341  git add fix1.txt
+  342  git commit -m "added fix1"
+  343  touch fix2.txt
+  344  git add fix2.txt
+  345  git commit -m "added fix2"
+  346  ls
+  347  git checkout main
+  348  ls
+  349  git log --oneline
+  350  git log feature2 --oneline
+  351  git cherry-pick 3526114
+  352  ls
+  353  history
+
